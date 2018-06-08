@@ -1,0 +1,16 @@
+Create a function which will be a loop and takes as arguments
+1- the started value
+2- the condition the loop has to iterate
+3- the step of loop
+4- and the code will run in every iteration
+
+The function will called like:
+loop(3, n => n > 0, n => n - 1, console.log);
+
+And the output has to be:
+
+// → 3
+// → 2
+// → 1
+
+

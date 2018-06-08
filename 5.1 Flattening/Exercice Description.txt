@@ -1,0 +1,9 @@
+Use the reduce method in combination with the concat method to “flatten”
+an array of arrays into a single array that has all the elements of the input
+arrays.
+
+By using reduce and concat,convert
+    this array: [[1, 2, 3], [4, 5], [6]]
+    to this : [1, 2, 3, 4, 5, 6]
+
+

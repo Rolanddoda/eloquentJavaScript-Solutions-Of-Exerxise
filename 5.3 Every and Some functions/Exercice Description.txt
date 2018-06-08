@@ -1,0 +1,27 @@
+Create 2 functions:
+
+1st: The function called every and takes 2 arguments.An array and a callback function which has a condition
+The logic is that this function will iterate the array to find if the condition matches all elements
+
+2st: The function called some and takes the same arguments as the above function.
+The is that this function will iterate the array to find if the condition matches at least one element.
+
+
+Calling the every function will lead to follow results:
+
+console.log(every([1, 3, 5], n => n < 10));
+// → true
+console.log(every([2, 4, 16], n => n < 10));
+// → false
+console.log(every([], n => n < 10));
+// → true
+
+
+Calling the some function:
+
+console.log(some([1, 3, 5], n => n > 10));
+// → false
+console.log(some([2, 4, 16], n => n < 10));
+// → true
+console.log(some([], n => n < 10));
+// → false
